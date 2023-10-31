@@ -1,0 +1,187 @@
+BÀI TẬP THỰC HÀNH CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT - TH02035
+
+Bài 00(thctdlgtbai00.cpp): Tính diện tích và chu vi hình tam giác
+có 3 cạnh a,b,c đọc vào từ tệp văn bản 'tamgiac.txt'. Đưa kết quả ra màn hình,
+đồng thời ghi ra tệp văn bản 'kq-thctdlgtbai00.txt'.
+
+Bài 01(thctdlgtbai01.cpp): Đọc vào mảng động dãy số nguyên có n phần tử từ tệp văn bản 'daysonguyen.txt'.
+Đưa các số lẻ về đầu dãy, các số chẵn về cuối dãy. Viết 1 hàm đưa dãy số ra màn hình, 1 hàm hoán đổi nội dung 2 ô nhớ,
+1 hàm đổi chỗ các số chẵn, lẻ. Lưu dãy số sau khi thay đổi ra tệp văn bản 'kq-thctdlgtbai01.txt'.
+
+Bài 02(thctdlgtbai02.cpp): Tính n! theo giải thuật đệ quy.
+
+Bài 03(thctdlgtbai03.cpp): Tìm USCLN của 2 số nguyên dương theo giải thuật đệ quy.
+
+Bài 04(thctdlgtbai04.cpp): Cho ma trận số nguyên kích thước mxn chứa trong tệp văn bản 'matran.txt'.
+Đọc ma trận từ tệp vào mảng động. Đưa ma trận từ mảng ra màn hình theo định dạng hàng, cột.
+Tính tổng và trung bình cộng các phần tử của ma trận.
+
+Bài 05(thctdlgtbai05.cpp): Tính tổng 2 ma trận nguyên: Cmxn = Amxn + Bmxn. Ma trận Amxn để trong
+tệp văn bản 'matran-A.txt', ma trận Bmxn để trong tệp văn bản 'matran-B.txt'. Ma trận tổng Cmxn
+được ghi ra tệp văn bản 'kq-thctdlgtbai05.txt'. Yêu cầu sử dụng mạng động chứa các ma trận,
+viết hàm đọc vào ma trận từ tệp, hàm đưa ra ma trận và hàm cộng 2 ma trận.
+
+Bài 06(thctdlgtbai06.cpp): Tính tích 2 ma trận nguyên: Cmxn = Amxp + Bpxn. Ma trận Amxp để trong
+tệp văn bản 'matran-A.txt', ma trận Bpxn để trong tệp văn bản 'matran-B.txt'. Ma trận tích Cmxn
+được ghi ra tệp văn bản 'kt-thctdlgtbai06.txt'. Yêu cầu sử dụng mạng động chứa các ma trận,
+viết hàm đọc vào ma trận từ tệp, hàm đưa ra ma trận và hàm nhân 2 ma trận.
+
+Bài 07(thctdlgtbai07.cpp): Cài đặt cấu trúc dữ liệu ngăn xếp sử dụng
+cấu trúc lưu trữ kế tiếp với phần tử dữ liệu là số nguyên. Sử dụng ngăn xếp chuyển
+một số nguyên dương hệ 10 sang hệ 2. Đưa ra bit MSB của số nhị phân tìm được.
+
+Bài 08(thctdlgtbai08.cpp): Cài đặt cấu trúc dữ liệu ngăn xếp sử dụng
+cấu trúc lưu trữ kế tiếp với phần tử dữ liệu là số nguyên. Sử dụng ngăn xếp chuyển
+một số nguyên dương hệ 10 sang hệ 16.
+
+Bài 09(thctdlgtbai09.cpp): Cài đặt cấu trúc dữ liệu ngăn xếp sử dụng cấu trúc lưu trữ kế tiếp với
+phần tử dữ liệu là ký tự. Sử dụng ngăn xếp để chuyển biểu thức trung tố có dấu ngoặc đầy đủ
+sang dạng hậu tố. Ví dụ: Biểu thức trung tố là ((a+b)*2) => Chuyển thành biểu thức hậu tố là
+a b + 2 *
+
+Bài 10(thctdlgtbai10.cpp): Cài đặt cấu trúc dữ liệu hàng đợi sử dụng cấu trúc lưu trữ kế tiếp
+theo kiểu quay vòng với phần tử dữ liệu là số nguyên. Sử dụng hàng đợi cho bài toán:
+Đọc vào dãy số nguyên dương từ tệp văn bản 'daysonguyen.txt', trên tệp không có thông tin về
+số phần tử của dãy. Tách dãy số thành dãy các số chẵn và dãy các số lẻ.
+
+Bài 11(thctdlgtbai11.cpp): Cài đặt cấu trúc dữ liệu hàng đợi sử dụng
+cấu trúc lưu trữ kế tiếp theo kiểu quay vòng. Sử dụng hàng đợi cho bài toán:
+Có một tệp danh sách sinh viên, mỗi sinh viên có thông tin gồm mã sv, họ tên, giới tính, điểm tbc.
+Danh sách sinh viên trên tệp đã được sắp xếp theo điểm tbc giảm dần.
+Ghi lại tệp sao cho tất cả sinh viên nữ ở đầu danh sách, tất cả sinh viên nam ở cuối danh sách,
+điểm tbc vẫn giảm dần trong nhóm nam và nữ.
+
+Bài 12(thctdlgtbai12.cpp): Cài đặt danh sách liên kết đơn có phần tử dữ liệu là số nguyên, với các
+phép toán sau:
+    1) Bổ sung phần tử dữ liệu x vào sau nút M
+    2) Bổ sung phần tử dữ liệu x vào trước nút M
+    3) Xóa nút M
+    4) Duyệt danh sách để đưa các phần tử dữ liệu ra màn hình.
+    5) Tìm một nút có phần tử dữ liệu bằng x, nếu có trả về địa chỉ nút, nếu không có trả về rỗng.
+Sử dụng danh sách liên kết đơn P để lưu trữ dãy số nguyên theo thứ tự đọc vào
+từ tệp văn bản 'daysonguyen.txt', trên tệp không có thông tin về số phần tử của dãy số.
+Tạo danh sách liên kết đơn Q bao gồm các phần tử dữ liệu của P nhưng theo thứ tự đảo ngược.
+Xóa một nút trên DSLK đơn P mà có phần tử dữ liệu bằng x nhập vào từ bàn phím.
+
+Bài 13(thctdlgtbai13.cpp): Cài đặt và sử dụng danh sách liên kết đơn cho bài toán sau:
+Đọc danh sách sinh viên từ tệp văn bản 'sinhvien.txt' lưu vào DSLKD, mỗi sinh viên có thông tin
+về mã sinh viên, họ tên, lớp, điểm tbc. Xóa sinh viên có mã nhập vào từ bàn phím.
+Tìm và đưa ra màn hình các sinh viên có điểm tbc >= 6.5.
+
+Bài 14(thctdlgtbai14.cpp): Cài đặt danh sách liên kết kép có phần tử dữ liệu là số nguyên, với các
+phép toán sau:
+    1) Bổ sung phần tử dữ liệu x vào sau nút M
+    2) Bổ sung phần tử dữ liệu x vào trước nút M
+    3) Xóa nút M
+    4) Duyệt danh sách để đưa các phần tử dữ liệu ra màn hình từ trái sang phải
+	và từ phải sang trái.
+    5) Tìm một nút có phần tử dữ liệu bằng x, nếu có trả về địa chỉ nút, nếu không có trả về rỗng.
+Sử dụng danh sách liên kết kép để lưu trữ dãy số nguyên theo thứ tự đọc vào
+từ tệp văn bản 'daysonguyen.txt', trên tệp không có thông tin về số phần tử của dãy số.
+Đưa dãy số nguyên trong DSLKK ra màn hình theo thứ tự từ trái sang phải và từ phải sang trái.
+Xóa tất cả các nút mà có phần tử dữ liệu bằng x nhập vào từ bàn phím.
+
+Bài 15(thctdlgtbai15.cpp): Cài đặt và sử dụng danh sách liên kết kép cho bài toán sau:
+Đọc danh sách mặt hàng từ tệp văn bản 'mathang.txt' lưu vào DSLKK, mỗi mặt hàng có thông tin
+về mã hàng, tên hàng, số lượng, đơn giá. Đưa danh sách mặt hàng ra màn hình kèm theo
+số tiền của từng mặt hàng và tổng số tiền của tất cả mặt hàng.
+Xóa mặt hàng có mã nhập vào từ bàn phím.
+
+Bài 16(thctdlgtbai16.cpp): Cài đặt ngăn xếp sử dụng cấu trúc lưu trữ phân tán với phần tử dữ liệu
+là số nguyên. Ứng dụng ngăn xếp cho bài toán tìm và đưa ra các số nguyên tố nhỏ hơn n theo thứ tự
+giảm dần.
+
+Bài 17(thctdlgtbai17.cpp): Cài đặt ngăn xếp sử dụng cấu trúc lưu trữ phân tán với phần tử dữ liệu
+là số nguyên. Ứng dụng ngăn xếp cho bài toán: Nhập vào một số nguyên dương, đưa ra màn hình
+từng chữ số của số nguyên, mỗi số trên một dòng.
+
+Bài 18(thctdlgtbai18.cpp): Cài đặt và sử dụng hàng đợi lưu trữ phân tán cho bài toán sau:
+Cho tệp văn bản 'dathuc.txt' chứa đa thức tuyến tính bậc n. Đọc tệp, đưa ra màn hình đa thức bậc n
+theo dạng Pn(x) = a0 + a1x + a2x^2 + a3x^3 +...+ anx^n. Nhập vào x, tính Pn(x).
+
+Bài 19(thctdlgtbai19.cpp): Cài đặt và sử dụng hàng đợi lưu trữ phân tán cho bài toán sau:
+Tính tổng 2 đa thức tuyến tính Pn(x) và Qm(x). Pn(x) = a0 + a1x + a2x^2 + a3x^3 +...+ anx^n.
+Qm(x) = b0 + b1x + b2x^2 + b3x^3 + ... + bmx^m. Đa thức Pn(x) và Qm(x) đọc vào từ tệp văn bản.
+Đưa ra màn hình các đa thức Pn(x), Qm(x) và Pn(x)+Qm(x). Nhập vào x, tính Pn(x)+Qm(x).
+
+Bài 20(thctdlgtbai20.cpp): Cài đặt và sử dụng cây nhị phân để biểu diễn biểu thức a*2 + (b-c)/d.
+Đưa biểu thức ra màn hình ở dạng tiền tố và hậu tố.
+
+Bài 21(thctdlgtbai21.cpp): Cài đặt và sử dụng cây nhị phân để lưu trữ dãy khóa là các số nguyên,
+Dãy khóa để trên văn bản 'daykhoa.txt'. Các khóa từ trái sang phải là các nút từ trên xuống dưới,
+từ trái sang phải. Đếm số nút có trên cây. Tìm chiều cao của cây nhị phân.
+
+Bài 22(thctdlgtbai22.cpp): Cho đồ thị vô hướng, không trọng số có n đỉnh là
+các số nguyên từ 1 đến n. Cài đặt cấu trúc đồ thị lưu trữ phân tán và phép toán duyệt đồ thị
+theo chiều rộng, chiều sâu. Cho tệp văn bản 'dothi1.txt' chứa nội dung như dưới đây. Đọc đồ thị từ tệp.
+Đưa ra thứ tự các đỉnh được thăm khi duyệt đồ thị theo chiều rộng và chiều sâu bắt đầu từ đỉnh 3.
+1: 2,5,6
+2: 1,3,5
+3: 2,5
+4: 6
+5: 1,2,3,6
+6: 1,4,5
+
+Bài 23(thctdlgtbai23.cpp): Cho đồ thị vô hướng, có trọng số là số thực, có n đỉnh là
+các số nguyên từ 1 đến n. Cài đặt cấu trúc đồ thị lưu trữ phân tán và phép toán duyệt đồ thị
+theo chiều sâu. Cho tệp văn bản 'dothi2.txt' chứa nội dung như dưới đây. Đọc đồ thị từ tệp.
+Đưa ra thứ tự các đỉnh được thăm khi duyệt đồ thị theo chiều rộng và chiều sâu bắt đầu từ đỉnh 3.
+1: 2,5,6
+2: 1,3,5
+3: 2,5
+4: 6
+5: 1,2,3,6
+6: 1,4,5
+
+Bài 24(thctdlgtbai24.cpp). Cho dãy khóa n phần tử là các số nguyên lưu trữ trong
+tệp văn bản 'daykhoa.txt'. Đọc dãy khóa từ tệp vào mảng động. Cài đặt giải thuật sắp xếp chọn
+để sắp xếp dãy khóa trong mảng động tăng dần. Đưa dãy khóa ban đầu và dãy khóa đã sắp xếp
+ra màn hình.
+
+Bài 25(thctdlgtbai25.cpp). Cho dãy khóa n phần tử là các số nguyên lưu trữ trong
+tệp văn bản 'daykhoa.txt'. Đọc dãy khóa từ tệp vào mảng động. Cài đặt giải thuật sắp xếp chèn
+để sắp xếp dãy khóa trong mảng động tăng dần. Đưa dãy khóa ban đầu và dãy khóa đã sắp xếp
+ra màn hình.
+
+Bài 26(thctdlgtbai26.cpp). Cho dãy khóa n phần tử là các số nguyên lưu trữ trong
+tệp văn bản 'daykhoa.txt'. Đọc dãy khóa từ tệp vào mảng động. Cài đặt giải thuật sắp xếp sủi bọt
+để sắp xếp dãy khóa trong mảng động tăng dần. Đưa dãy khóa ban đầu và dãy khóa đã sắp xếp
+ra màn hình.
+
+Bài 27(thctdlgtbai27.cpp). Cho dãy khóa n phần tử là các số nguyên lưu trữ trong
+tệp văn bản 'daykhoa.txt'. Đọc dãy khóa từ tệp vào mảng động. Cài đặt giải thuật sắp xếp nhanh
+để sắp xếp dãy khóa trong mảng động tăng dần. Đưa dãy khóa ban đầu và dãy khóa đã sắp xếp
+ra màn hình.
+
+Bài 28(thctdlgtbai28.cpp). Cho dãy khóa n phần tử là các số nguyên lưu trữ trong
+tệp văn bản 'daykhoa.txt'. Đọc dãy khóa từ tệp vào mảng động. Cài đặt giải thuật sắp xếp vun đống
+để sắp xếp dãy khóa trong mảng động tăng dần. Đưa dãy khóa ban đầu và dãy khóa đã sắp xếp
+ra màn hình.
+
+Bài 29(thctdlgtbai29.cpp). Cho dãy khóa n phần tử là các số nguyên lưu trữ trong
+tệp văn bản 'daykhoa.txt'. Đọc dãy khóa từ tệp vào mảng động. Cài đặt giải thuật sắp xếp trộn
+để sắp xếp dãy khóa trong mảng động tăng dần. Đưa dãy khóa ban đầu và dãy khóa đã sắp xếp
+ra màn hình.
+
+Bài 30(thctdlgtbai30.cpp). Cho dãy khóa n phần tử là các số nguyên lưu trữ trong
+tệp văn bản 'daykhoa.txt'. Đọc dãy khóa từ tệp vào mảng động. Cài đặt giải thuật tìm kiếm tuần tự
+để tìm khóa có giá trị bằng x, nếu tìm thấy thì trả về vị trí của khóa, nếu không tìm thấy thì
+trả về 0.
+
+Bài 31(thctdlgtbai31.cpp). Cho dãy khóa n phần tử là các số nguyên lưu trữ trong
+tệp văn bản 'daykhoatangdan.txt'. Đọc dãy khóa từ tệp vào mảng động. Cài đặt giải thuật
+tìm kiếm nhị phân dạng không đệ quy để tìm khóa có giá trị bằng x, nếu tìm thấy thì
+trả về vị trí của khóa, nếu không tìm thấy thì trả về 0.
+
+Bài 32(thctdlgtbai32.cpp). Cho dãy khóa n phần tử là các số nguyên lưu trữ trong
+tệp văn bản 'daykhoatangdan.txt'. Đọc dãy khóa từ tệp vào mảng động. Cài đặt giải thuật
+tìm kiếm nhị phân dạng đệ quy để tìm khóa có giá trị bằng x, nếu tìm thấy thì
+trả về vị trí của khóa, nếu không tìm thấy thì trả về 0.
+
+Bài 33(thctdlgtbai33.cpp). Cho dãy khóa n phần tử là các số nguyên lưu trữ trong
+tệp văn bản 'daykhoatangdan.txt'. Đọc dãy khóa từ tệp để tạo cây nhị phân tìm kiếm.
+Tìm khóa có giá trị bằng x, nếu không tìm thấy thì bổ sung x vào dãy khóa.
+
+Bài 34(thctdlgtbai34.cpp). Cho dãy khóa n phần tử là các số nguyên lưu trữ trong
+tệp văn bản 'daykhoatangdan.txt'. Đọc dãy khóa từ tệp để tạo cây nhị phân tìm kiếm.
+Đưa các khóa trên cây nhị phân tìm kiếm ra màn hình theo thứ tự tăng dần.
