@@ -1,11 +1,3 @@
-/* Ho va ten : Hoang Dieu Linh
-   Lơp : K67CNPMA
-   MSV :671615
-   DE BAI :Bài 18(thctdlgtbai18.cpp): Cài đặt và sử dụng hàng đợi lưu trữ phân tán cho bài toán sau:
-Cho tệp văn bản 'dathuc.txt' chứa đa thức tuyến tính bậc n. Đọc tệp, đưa ra màn hình đa thức bậc n
-theo dạng Pn(x) = a0 + a1x + a2x^2 + a3x^3 +...+ anx^n. Nhập vào x, tính Pn(x).
-
-   */
 #include<bits/stdc++.h>
 using namespace std ;
 struct NODE{
@@ -29,6 +21,7 @@ int main()
         khoiTao(ds);
         f.open("dathuc.txt",ios::in);
         while(f>>num){
+                //cout<<num;
                 Push(ds,num);
         }
         cout<<"Nhap vao x ";
@@ -36,13 +29,14 @@ int main()
         float s=0;
         while(ds.pH != NULL){
                 int temp=Pop(ds);
-                s+=temp*pow(x,i);
-                                i++;
+                s=s+temp*pow(x,i);
+                //cout<<x;
+                i++;
         }
         cout<<"Output : "<<s<<endl;
 
     //In ra ket qua
-        cout<<endl;
+ cout<<endl;
         return 0;
    return 0;
 }
@@ -58,7 +52,7 @@ void Push(LIST& ds,int x ){
         N->infor=x;
         N->link= NULL;
         //Noi nut
-        if(ds.pH=ds.pT=NULL){
+        if(ds.pH==NULL && ds.pT==NULL){
                 ds.pH=N;
                 ds.pT=N;
                 return ;
@@ -70,18 +64,18 @@ void Push(LIST& ds,int x ){
 }
 int Pop(LIST& ds){
         //TH rong
-        if(ds.pH == ds.pT && ds.pH == NULL){
+        if( ds.pH == NULL){
                 return 0;
         }
         //giu lai nut noi trc
         NODE*p= ds.pH;
         int tg = p->infor;
-         //tro ph dung sau
+        //tro ph dung sau
         if(ds.pH==ds.pT){
                 ds.pH=NULL;
                 ds.pT=NULL;
         }else{
-                ds.pH=p->link;
+                ds.pH=ds.pH->link;
         }
         //xooa
         delete p ;
